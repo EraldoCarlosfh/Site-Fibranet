@@ -1,0 +1,50 @@
+@import "./layout/layout.scss";
+
+html, body {
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.color-check {
+    color: #609af8;
+}
+
+.text-span-card {
+    font-size: 13pt;
+}
+
+.text-title-card {
+    font-size: 32pt;  
+    color: #204887;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.card-stily {
+    border-radius: 2rem;
+    border: 10px solid #366ec8;
+}
+
+.card-stily:hover {
+    border: 10px solid #FFF;
+}
+
+.back-color-fibra {
+    background-color: #3b82f6 !important;
+}
+
+.back-color-fibra:hover {
+    background-color: #295bac !important;
+}
+
+@media (min-width: 600px) {
+    /* .card-stily {
+        max-width: 460px;
+    } */
+}
