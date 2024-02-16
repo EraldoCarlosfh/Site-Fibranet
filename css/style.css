@@ -26,13 +26,31 @@ nav {
     margin-bottom: 20px !important;
 }
 
-.card-stily {
+.card-stile {
     border-radius: 2rem;
     border: 10px solid #366ec8;
 }
 
-.card-stily:hover {
+.card-stile:hover {
     border: 10px solid #FFF;
+}
+
+.card-stile-corp {
+    border-radius: 2rem;
+    border: 10px solid #FFF;
+}
+
+.card-stile-corp:hover {
+    border: 10px solid #295bac;
+}
+
+.card-stile-fibra {
+    border-radius: 2rem;
+    border: 10px solid #366ec8;
+}
+
+.card-stile-fibra:hover {
+    border: 10px solid #295bac;
 }
 
 .back-color-fibra {
